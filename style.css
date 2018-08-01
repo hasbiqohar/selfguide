@@ -1,0 +1,1840 @@
+/***********************\
+======= reset html5 =====
+\***********************/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/***********************\
+======= font size =======
+\***********************/
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (min-width : 600px) {
+  body, h1, h2, h3, h4, h5, h6, p, span, a {
+    line-height: 1.5;
+  }
+}
+
+@media screen and (min-width : 768px ) {
+  h1 {
+    font-size: 4.166666666666667vw;
+    line-height: 5.25vw;
+  }
+
+  h2 {
+    font-size: 3.125vw;
+    line-height: 4.25vw;
+  }
+
+  h3 {
+    font-size: 2.4739583333333335vw;
+    line-height: 3.5vw;
+  }
+
+  body, h4, p, span, a {
+    font-size: 2.0833333333333335vw;
+    line-height: 3vw;
+  }
+
+  h5 {
+    font-size: 1.6927083333333335vw;
+    line-height: 2.25vw;
+  }
+
+  h6 {
+    font-size: 1.4322916666666667vw;
+    line-height: 2vw;
+  }
+
+}
+
+@media screen and (min-width : 1024px ) {
+  h1 {
+    font-size: 3.125vw;
+    line-height: 4.125vw;
+  }
+
+  h2 {
+    font-size: 2.34375vw;
+    line-height: 2.25vw;
+  }
+
+  h3 {
+    font-size: 1.85546875vw;
+    line-height: 2.75vw;
+  }
+
+  body, h4, p, span, a {
+    font-size: 1.5625vw;
+    line-height: 2.5vw;
+  }
+
+  h5 {
+    font-size: 1.26953125vw;
+    line-height: 1.75vw;
+  }
+
+  h6 {
+    font-size: 1.07421875vw;
+    line-height: 1.5vw;
+  }
+
+}
+
+@media screen and (min-width : 1366px ) {
+  h1 {
+    font-size: 2.342606149341142vw;
+    line-height: 3.342606149341142vw;
+  }
+
+  h2 {
+    font-size: 1.7569546120058566vw;
+    line-height: 2.75vw;
+  }
+
+  h3 {
+    font-size: 1.390922401171303vw;
+    line-height: 2.25vw;
+  }
+
+  body, h4, p, span, a {
+    font-size: 1.171303074670571vw;
+    line-height: 1.75vw;
+  }
+
+  h5 {
+    font-size: 0.9516837481698389vw;
+    line-height: 1.5vw;
+  }
+
+  h6 {
+    font-size: 0.8052708638360175vw;
+    line-height: 1.5vw;
+  }
+
+}
+
+@media screen and (min-width : 1920px ) {
+  h1 {
+    font-size: 3.3333333333333335vw;
+    line-height: 4.3333333333333335vw;
+  }
+
+  h2 {
+    font-size: 1.25vw;
+    line-height: 2.25vw;
+  }
+
+  h3 {
+    font-size: 0.9895833333333334vw;
+    line-height: 2vw;
+  }
+
+  body, h4, p, span, a {
+    font-size: 0.8333333333333334vw;
+    line-height: 1.5vw;
+  }
+
+  h5 {
+    font-size: 0.6770833333333334vw;
+    line-height: 1.25vw;
+  }
+
+  h6 {
+    font-size: 0.5729166666666667vw;
+    line-height: 1.25vw;
+  }
+
+}
+
+@media screen and (max-width : 600px) {
+  body, h1, h2, h3, h4, h5, h6, p, span, a{
+    line-height: 1.5;
+  }
+}
+
+/***********************\
+======== width ========
+\***********************/
+
+.min-w-5 {
+  min-width: 5%;
+}
+
+.min-w-10 {
+  min-width: 10%;
+}
+
+.min-w-15 {
+  min-width: 15%;
+}
+
+.min-w-20 {
+  min-width: 20%;
+}
+
+.min-w-25 {
+  min-width: 25%;
+}
+
+.min-w-30 {
+  min-width: 30%;
+}
+
+.min-w-33 {
+  min-width: 33.333333%;
+}
+
+.min-w-40 {
+  min-width: 40%;
+}
+
+.min-w-50 {
+  min-width: 50%;
+}
+
+.min-w-60 {
+  min-width: 60%;
+}
+
+.min-w-70 {
+  min-width: 70%;
+}
+
+.min-w-75 {
+  min-width: 75%;
+}
+
+.min-w-80 {
+  min-width: 80%;
+}
+
+.min-w-90 {
+  min-width: 90%;
+}
+
+.w-0 {
+  width: 0px;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-5 {
+  width: 5%;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.w-15 {
+  width: 15%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-33 {
+  width: 33.333333%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.min-w-5vw {
+  min-width: 5vw;
+}
+
+.min-w-10vw {
+  min-width: 10vw;
+}
+
+.min-w-15vw {
+  min-width: 15vw;
+}
+
+.min-w-20vw {
+  min-width: 20vw;
+}
+
+.min-w-25vw {
+  min-width: 25vw;
+}
+
+.min-w-30vw {
+  min-width: 30vw;
+}
+
+.min-w-33vw {
+  min-width: 33.333333vw;
+}
+
+.min-w-40vw {
+  min-width: 40vw;
+}
+
+.min-w-50vw {
+  min-width: 50vw;
+}
+
+.min-w-60vw {
+  min-width: 60vw;
+}
+
+.min-w-70vw {
+  min-width: 70vw;
+}
+
+.min-w-75vw {
+  min-width: 75vw;
+}
+
+.min-w-80vw {
+  min-width: 80vw;
+}
+
+.min-w-90vw {
+  min-width: 90vw;
+}
+
+.w-5vw {
+  width: 5vw;
+}
+
+.w-10vw {
+  width: 10vw;
+}
+
+.w-15vw {
+  width: 15vw;
+}
+
+.w-20vw {
+  width: 20vw;
+}
+
+.w-25vw {
+  width: 25vw;
+}
+
+.w-30vw {
+  width: 30vw;
+}
+
+.w-33vw {
+  width: 33.333333vw;
+}
+
+.w-40vw {
+  width: 40vw;
+}
+
+.w-50vw {
+  width: 50vw;
+}
+
+.w-60vw {
+  width: 60vw;
+}
+
+.w-70vw {
+  width: 70vw;
+}
+
+.w-75vw {
+  width: 75vw;
+}
+
+.w-80vw {
+  width: 80vw;
+}
+
+.w-90vw {
+  width: 90vw;
+}
+
+.w-100vw {
+  width: 100vw;
+}
+
+/***********************\
+======== height ========
+\***********************/
+
+.min-h-5 {
+  min-height: 5%;
+}
+
+.min-h-10 {
+  min-height: 10%;
+}
+
+.min-h-15 {
+  min-height: 15%;
+}
+
+.min-h-20 {
+  min-height: 20%;
+}
+
+.min-h-25 {
+  min-height: 25%;
+}
+
+.min-h-30 {
+  min-height: 30%;
+}
+
+.min-h-33 {
+  min-height: 33.333333%;
+}
+
+.min-h-40 {
+  min-height: 40%;
+}
+
+.min-h-50 {
+  min-height: 50%;
+}
+
+.min-h-60 {
+  min-height: 60%;
+}
+
+.min-h-70 {
+  min-height: 70%;
+}
+
+.min-h-75 {
+  min-height: 75%;
+}
+
+.min-h-80 {
+  min-height: 80%;
+}
+
+.min-h-90 {
+  min-height: 90%;
+}
+
+.h-0 {
+  height: 0px;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-5 {
+  height: 5%;
+}
+
+.h-10 {
+  height: 10%;
+}
+
+.h-15 {
+  height: 15%;
+}
+
+.h-20 {
+  height: 20%;
+}
+
+.h-25 {
+  height: 25%;
+}
+
+.h-30 {
+  height: 30%;
+}
+
+.h-33 {
+  height: 33.333333%;
+}
+
+.h-40 {
+  height: 40%;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.h-60 {
+  height: 60%;
+}
+
+.h-70 {
+  height: 70%;
+}
+
+.h-75 {
+  height: 75%;
+}
+
+.h-80 {
+  height: 80%;
+}
+
+.h-90 {
+  height: 90%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.min-h-5vh {
+  min-height: 5vh;
+}
+
+.min-h-10vh {
+  min-height: 10vh;
+}
+
+.min-h-15vh {
+  min-height: 15vh;
+}
+
+.min-h-20vh {
+  min-height: 20vh;
+}
+
+.min-h-25vh {
+  min-height: 25vh;
+}
+
+.min-h-30vh {
+  min-height: 30vh;
+}
+
+.min-h-33vh {
+  min-height: 33.333333vh;
+}
+
+.min-h-40vh {
+  min-height: 40vh;
+}
+
+.min-h-50vh {
+  min-height: 50vh;
+}
+
+.min-h-60vh {
+  min-height: 60vh;
+}
+
+.min-h-70vh {
+  min-height: 70vh;
+}
+
+.min-h-75vh {
+  min-height: 75vh;
+}
+
+.min-h-80vh {
+  min-height: 80vh;
+}
+
+.min-h-90vh {
+  min-height: 90vh;
+}
+
+.h-5vh {
+  height: 5vh;
+}
+
+.h-10vh {
+  height: 10vh;
+}
+
+.h-15vh {
+  height: 15vh;
+}
+
+.h-20vh {
+  height: 20vh;
+}
+
+.h-25vh {
+  height: 25vh;
+}
+
+.h-30vh {
+  height: 30vh;
+}
+
+.h-33vh {
+  height: 33.333333vh;
+}
+
+.h-40vh {
+  height: 40vh;
+}
+
+.h-50vh {
+  height: 50vh;
+}
+
+.h-60vh {
+  height: 60vh;
+}
+
+.h-70vh {
+  height: 70vh;
+}
+
+.h-75vh {
+  height: 75vh;
+}
+
+.h-80vh {
+  height: 80vh;
+}
+
+.h-90vh {
+  height: 90vh;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+/***********************\
+======== margin ========
+\***********************/
+
+.m-0 {
+  margin: 0px;
+}
+
+.mt-0,
+.my-0 {
+  margin-top: 0px;
+}
+
+.mb-0,
+.my-0 {
+  margin-bottom: 0px;
+}
+
+.ml-0,
+.mx-0 {
+  margin-left: 0px;
+}
+
+.mr-0,
+.mx-0 {
+  margin-right: 0px;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.mt-auto,
+.my-auto {
+  margin-top: auto;
+}
+
+.mb-auto,
+.my-auto {
+  margin-bottom: auto;
+}
+
+.ml-auto,
+.mx-auto {
+  margin-left: auto;
+}
+
+.mr-auto,
+.mx-auto {
+  margin-right: auto;
+}
+
+.m-5 {
+  margin: 5%;
+}
+
+.mt-5,
+.my-5 {
+  margin-top: 5%;
+}
+
+.mb-5,
+.my-5 {
+  margin-bottom: 5%;
+}
+
+.ml-5,
+.mx-5 {
+  margin-left: 5%;
+}
+
+.mr-5,
+.mx-5 {
+  margin-right: 5%;
+}
+
+.m-10 {
+  margin: 10%;
+}
+
+.mt-10,
+.my-10 {
+  margin-top: 10%;
+}
+
+.mb-10,
+.my-10 {
+  margin-bottom: 10%;
+}
+
+.ml-10,
+.mx-10 {
+  margin-left: 10%;
+}
+
+.mr-10,
+.mx-10 {
+  margin-right: 10%;
+}
+
+.m-15 {
+  margin: 15%;
+}
+
+.mt-15,
+.my-15 {
+  margin-top: 15%;
+}
+
+.mb-15,
+.my-15 {
+  margin-bottom: 15%;
+}
+
+.ml-15,
+.mx-15 {
+  margin-left: 15%;
+}
+
+.mr-15,
+.mx-15 {
+  margin-right: 15%;
+}
+
+.m-20 {
+  margin: 20%;
+}
+
+.mt-20,
+.my-20 {
+  margin-top: 20%;
+}
+
+.mb-20,
+.my-20 {
+  margin-bottom: 20%;
+}
+
+.ml-20,
+.mx-20 {
+  margin-left: 20%;
+}
+
+.mr-20,
+.mx-20 {
+  margin-right: 20%;
+}
+
+.m-25 {
+  margin: 25%;
+}
+
+.mt-25,
+.my-25 {
+  margin-top: 25%;
+}
+
+.mb-25,
+.my-25 {
+  margin-bottom: 25%;
+}
+
+.ml-25,
+.mx-25 {
+  margin-left: 25%;
+}
+
+.mr-25,
+.mx-25 {
+  margin-right: 25%;
+}
+
+.m-30 {
+  margin: 30%;
+}
+
+.mt-30,
+.my-30 {
+  margin-top: 30%;
+}
+
+.mb-30,
+.my-30 {
+  margin-bottom: 30%;
+}
+
+.ml-30,
+.mx-30 {
+  margin-left: 30%;
+}
+
+.mr-30,
+.mx-30 {
+  margin-right: 30%;
+}
+
+.m-33 {
+  margin: 33.333333%;
+}
+
+.mt-33,
+.my-33 {
+  margin-top: 33.333333%;
+}
+
+.mb-33,
+.my-33 {
+  margin-bottom: 33.333333%;
+}
+
+.ml-33,
+.mx-33 {
+  margin-left: 33.333333%;
+}
+
+.mr-33,
+.mx-33 {
+  margin-right: 33.333333%;
+}
+
+.m-40 {
+  margin: 40%;
+}
+
+.mt-40,
+.my-40 {
+  margin-top: 40%;
+}
+
+.mb-40,
+.my-40 {
+  margin-bottom: 40%;
+}
+
+.ml-40,
+.mx-40 {
+  margin-left: 40%;
+}
+
+.mr-40,
+.mx-40 {
+  margin-right: 40%;
+}
+
+.mt-45,
+.my-45 {
+  margin-top: 45%;
+}
+
+.mb-45,
+.my-45 {
+  margin-bottom: 45%;
+}
+
+.ml-45,
+.mx-45 {
+  margin-left: 45%;
+}
+
+.mr-45,
+.mx-45 {
+  margin-right: 45%;
+}
+
+.mt-50 {
+  margin-top: 50%;
+}
+
+.mb-50 {
+  margin-bottom: 50%;
+}
+
+.ml-50 {
+  margin-left: 50%;
+}
+
+.mr-50 {
+  margin-right: 50%;
+}
+
+.mt-60 {
+  margin-top: 60%;
+}
+
+.mb-60 {
+  margin-bottom: 60%;
+}
+
+.ml-60 {
+  margin-left: 60%;
+}
+
+.mr-60 {
+  margin-right: 60%;
+}
+
+.mt-70 {
+  margin-top: 70%;
+}
+
+.mb-70 {
+  margin-bottom: 70%;
+}
+
+.ml-70 {
+  margin-left: 70%;
+}
+
+.mr-70 {
+  margin-right: 70%;
+}
+
+.mt-75 {
+  margin-top: 75%;
+}
+
+.mb-75 {
+  margin-bottom: 75%;
+}
+
+.ml-75 {
+  margin-left: 75%;
+}
+
+.mr-75 {
+  margin-right: 75%;
+}
+
+.mt-80 {
+  margin-top: 80%;
+}
+
+.mb-80 {
+  margin-bottom: 80%;
+}
+
+.ml-80 {
+  margin-left: 80%;
+}
+
+.mr-80 {
+  margin-right: 80%;
+}
+
+.mt-90 {
+  margin-top: 90%;
+}
+
+.mb-90 {
+  margin-bottom: 90%;
+}
+
+.ml-90 {
+  margin-left: 90%;
+}
+
+.mr-90 {
+  margin-right: 90%;
+}
+
+/***********************\
+======== padding ========
+\***********************/
+
+.p-0 {
+  padding: 0px;
+}
+
+.pt-0,
+.py-0 {
+  padding-top: 0px;
+}
+
+.pb-0,
+.py-0 {
+  padding-bottom: 0px;
+}
+
+.pl-0,
+.px-0 {
+  padding-left: 0px;
+}
+
+.pr-0,
+.px-0 {
+  padding-right: 0px;
+}
+
+.p-auto {
+  padding: auto;
+}
+
+.pt-auto,
+.py-auto {
+  padding-top: auto;
+}
+
+.pb-auto,
+.py-auto {
+  padding-bottom: auto;
+}
+
+.pl-auto,
+.px-auto {
+  padding-left: auto;
+}
+
+.pr-auto,
+.px-auto {
+  padding-right: auto;
+}
+
+.p-5 {
+  padding: 5%;
+}
+
+.pt-5,
+.py-5 {
+  padding-top: 5%;
+}
+
+.pb-5,
+.py-5 {
+  padding-bottom: 5%;
+}
+
+.pl-5,
+.px-5 {
+  padding-left: 5%;
+}
+
+.pr-5,
+.px-5 {
+  padding-right: 5%;
+}
+
+.p-10 {
+  padding: 10%;
+}
+
+.pt-10,
+.py-10 {
+  padding-top: 10%;
+}
+
+.pb-10,
+.py-10 {
+  padding-bottom: 10%;
+}
+
+.pl-10,
+.px-10 {
+  padding-left: 10%;
+}
+
+.pr-10,
+.px-10 {
+  padding-right: 10%;
+}
+
+.p-15 {
+  padding: 15%;
+}
+
+.pt-15,
+.py-15 {
+  padding-top: 15%;
+}
+
+.pb-15,
+.py-15 {
+  padding-bottom: 15%;
+}
+
+.pl-15,
+.px-15 {
+  padding-left: 15%;
+}
+
+.pr-15,
+.px-15 {
+  padding-right: 15%;
+}
+
+.p-20 {
+  padding: 20%;
+}
+
+.pt-20,
+.py-20 {
+  padding-top: 20%;
+}
+
+.pb-20,
+.py-20 {
+  padding-bottom: 20%;
+}
+
+.pl-20,
+.px-20 {
+  padding-left: 20%;
+}
+
+.pr-20,
+.px-20 {
+  padding-right: 20%;
+}
+
+.p-25 {
+  padding: 25%;
+}
+
+.pt-25,
+.py-25 {
+  padding-top: 25%;
+}
+
+.pb-25,
+.py-25 {
+  padding-bottom: 25%;
+}
+
+.pl-25,
+.px-25 {
+  padding-left: 25%;
+}
+
+.pr-25,
+.px-25 {
+  padding-right: 25%;
+}
+
+.p-30 {
+  padding: 30%;
+}
+
+.pt-30,
+.py-30 {
+  padding-top: 30%;
+}
+
+.pb-30,
+.py-30 {
+  padding-bottom: 30%;
+}
+
+.pl-30,
+.px-30 {
+  padding-left: 30%;
+}
+
+.pr-30,
+.px-30 {
+  padding-right: 30%;
+}
+
+.p-33 {
+  padding: 33.333333%;
+}
+
+.pt-33,
+.py-33 {
+  padding-top: 33.333333%;
+}
+
+.pb-33,
+.py-33 {
+  padding-bottom: 33.333333%;
+}
+
+.pl-33,
+.px-33 {
+  padding-left: 33.333333%;
+}
+
+.pr-33,
+.px-33 {
+  padding-right: 33.333333%;
+}
+
+.p-40 {
+  padding: 40%;
+}
+
+.pt-40,
+.py-40 {
+  padding-top: 40%;
+}
+
+.pb-40,
+.py-40 {
+  padding-bottom: 40%;
+}
+
+.pl-40,
+.px-40 {
+  padding-left: 40%;
+}
+
+.pr-40,
+.px-40 {
+  padding-right: 40%;
+}
+
+.pt-45,
+.py-45 {
+  padding-top: 45%;
+}
+
+.pb-45,
+.py-45 {
+  padding-bottom: 45%;
+}
+
+.pl-45,
+.px-45 {
+  padding-left: 45%;
+}
+
+.pr-45,
+.px-45 {
+  padding-right: 45%;
+}
+
+.pt-50 {
+  padding-top: 50%;
+}
+
+.pb-50 {
+  padding-bottom: 50%;
+}
+
+.pl-50 {
+  padding-left: 50%;
+}
+
+.pr-50 {
+  padding-right: 50%;
+}
+
+.pt-60 {
+  padding-top: 60%;
+}
+
+.pb-60 {
+  padding-bottom: 60%;
+}
+
+.pl-60 {
+  padding-left: 60%;
+}
+
+.pr-60 {
+  padding-right: 60%;
+}
+
+.pt-70 {
+  padding-top: 70%;
+}
+
+.pb-70 {
+  padding-bottom: 70%;
+}
+
+.pl-70 {
+  padding-left: 70%;
+}
+
+.pr-70 {
+  padding-right: 70%;
+}
+
+.pt-75 {
+  padding-top: 75%;
+}
+
+.pb-75 {
+  padding-bottom: 75%;
+}
+
+.pl-75 {
+  padding-left: 75%;
+}
+
+.pr-75 {
+  padding-right: 75%;
+}
+
+.pt-80 {
+  padding-top: 80%;
+}
+
+.pb-80 {
+  padding-bottom: 80%;
+}
+
+.pl-80 {
+  padding-left: 80%;
+}
+
+.pr-80 {
+  padding-right: 80%;
+}
+
+.pt-90 {
+  padding-top: 90%;
+}
+
+.pb-90 {
+  padding-bottom: 90%;
+}
+
+.pl-90 {
+  padding-left: 90%;
+}
+
+.pr-90 {
+  padding-right: 90%;
+}
+
+/***********************\
+======== display ========
+\***********************/
+
+.d-none {
+  display: none;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-table {
+  display: table;
+}
+
+.d-table-row {
+  display: table-row;
+}
+
+.d-table-cell {
+  display: table-cell;
+}
+
+.d-flex {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.d-inline-flex {
+  display: -ms-inline-flex;
+  display: inline-flex;
+}
+
+/***********************\
+======== flex-box =======
+\***********************/
+
+.flex-row {
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.flex-column {
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.flex-row-reverse {
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.flex-column-reverse {
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.flex-wrap-reverse {
+  -ms-flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
+}
+
+.justify-content-start {
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.justify-content-end {
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.justify-content-center {
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.justify-content-between {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.justify-content-around {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.align-content-start {
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.align-content-end {
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.align-content-center {
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.align-content-between {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.align-content-around {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.align-items-start {
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.align-items-end {
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.align-items-center {
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.align-items-baseline {
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+.align-items-stretch {
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.align-self-auto {
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+
+.align-self-start {
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+.align-self-end {
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+
+.align-self-center {
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.align-self-baseline {
+  -ms-flex-item-align: baseline;
+  align-self: baseline;
+}
+
+.align-self-stretch {
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+}
+
+/***********************\
+======== position =======
+\***********************/
+
+.position-static {
+  position: static;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-fixed {
+  position: fixed;
+}
+
+.position-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.fixed-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+}
+
+/***********************\
+======== float =======
+\***********************/
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-none {
+  float: none;
+}
+
+/********************************\
+====== styling overflow box =====
+\********************************/
+
+.overflow-visible {
+  overflow: visible;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+/************************************\
+====== styling color box black white =====
+\************************************/
+
+.back-white {
+  background-color: #fff;
+}
+
+.back-black {
+  background-color: #000;
+}
+
+.border-white {
+  border: solid #fff;
+}
+
+.border-black {
+  border: solid #000;
+}
+
+.border-thin-white {
+  border: solid thin #fff;
+}
+
+.border-thin-black {
+  border: solid thin #000;
+}
+
+.border-thick-white {
+  border: solid thick #fff;
+}
+
+.border-thick-black {
+  border: solid thick #000;
+}
+
+/***********************\
+======== list =======
+\***********************/
+
+.list-none {
+  list-style: none;
+}
+
+/***********************\
+====== styling text =====
+\***********************/
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-nowrap {
+  white-space: nowrap;
+}
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.font-weight-light {
+  font-weight: 300;
+}
+
+.font-weight-lighter {
+  font-weight: lighter;
+}
+
+.font-weight-normal {
+  font-weight: 400;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.font-weight-bolder {
+  font-weight: bolder;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-black {
+  color: #000;
+}
